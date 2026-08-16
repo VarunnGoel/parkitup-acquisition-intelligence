@@ -1,0 +1,12 @@
+scenario_id,scenario_code,scenario_group,scenario_description,demand_multiplier,commission_multiplier,booking_share_multiplier,dwell_multiplier,onboarding_cost_multiplier,competition_multiplier,network_variant,demand_weight,revenue_weight,competition_weight,strategic_fit_weight,feasibility_weight
+1,BASE_CASE,Base,Official scoring baseline assumptions and weights.,1.0,1.0,1.0,1.0,1.0,1.0,LIVE,0.3,0.25,0.15,0.15,0.15
+2,ACQUISITION_COST_PRESSURE,Business,Onboarding cost increases to 1.5x while all other assumptions remain fixed.,1.0,1.0,1.0,1.0,1.5,1.0,LIVE,0.3,0.25,0.15,0.15,0.15
+3,COMPETITIVE_PRESSURE,Business,Competition opportunity scores deteriorate by 25% as a pillar-level stress shock.,1.0,1.0,1.0,1.0,1.0,0.75,LIVE,0.3,0.25,0.15,0.15,0.15
+4,CONSERVATIVE,Business,"15% lower demand, 10% lower booking share, 20% lower commission, 5% lower dwell and 25% higher onboarding cost.",0.85,0.8,0.9,0.95,1.25,1.0,LIVE,0.3,0.25,0.15,0.15,0.15
+5,GROWTH,Business,"15% higher demand, 10% higher booking share and 5% higher commission under baseline weights.",1.15,1.05,1.1,1.0,1.0,1.0,LIVE,0.3,0.25,0.15,0.15,0.15
+6,NETWORK_EXPANSION,Business,Planned hypothetical sites are treated as part of the network footprint.,1.0,1.0,1.0,1.0,1.0,1.0,ALL_SITES,0.3,0.25,0.15,0.15,0.15
+7,DEMAND_HEAVY,Weights,Demand-led allocation: 40/20/15/15/10.,1.0,1.0,1.0,1.0,1.0,1.0,LIVE,0.4,0.2,0.15,0.15,0.1
+8,EQUAL_WEIGHT_CONTROL,Weights,Equal-weight analytical control: 20% per pillar.,1.0,1.0,1.0,1.0,1.0,1.0,LIVE,0.2,0.2,0.2,0.2,0.2
+9,FEASIBILITY_HEAVY,Weights,Feasibility-led allocation: 25/20/15/15/25.,1.0,1.0,1.0,1.0,1.0,1.0,LIVE,0.25,0.2,0.15,0.15,0.25
+10,REVENUE_HEAVY,Weights,Revenue-led allocation: 20/40/15/15/10.,1.0,1.0,1.0,1.0,1.0,1.0,LIVE,0.2,0.4,0.15,0.15,0.1
+11,STRATEGIC_GROWTH,Weights,Strategic expansion allocation: 25/20/10/30/15.,1.0,1.0,1.0,1.0,1.0,1.0,LIVE,0.25,0.2,0.1,0.3,0.15

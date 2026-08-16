@@ -1,0 +1,5 @@
+segment_code,segment_label,eval_priority,min_attractiveness,min_feasibility,max_feasibility,bd_action,rationale,segment_sort_order,segment_colour_hex
+ACQUIRE_NOW,Acquire Now,1,46.6,57.55,,Assign a named owner this week and open commercial discussions.,Top-third attractiveness and at-or-above-median feasibility; calibrated from the base-case distribution.,1,#0B6E4F
+PURSUE,Pursue,2,46.6,,57.55,"Work the constraint before the commercials: identify the decision maker, test a pilot or revisit exclusivity.",Top-third attractiveness with below-median feasibility; work the specific blocker first.,2,#D97706
+DEVELOP,Develop,3,32.87,57.55,,Batch into low-cost outreach. Good practice ground for junior reps.,Middle-or-better attractiveness with at-or-above-median feasibility; use efficient outreach.,3,#2563EB
+AVOID,Avoid,4,,,,No outreach. Re-evaluate only if the surrounding market changes.,Outside the calibrated attractiveness/feasibility action bands.,4,#6B7280

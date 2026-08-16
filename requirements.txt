@@ -1,0 +1,92 @@
+# =====================================================================
+# PARK It Up Acquisition Intelligence - Python dependencies
+#
+# Every entry below is justified. Packages were evaluated and REJECTED where
+# they would only have been added out of habit - see the bottom of this file.
+# Version ranges rather than exact pins: reproducible enough for a portfolio
+# project, without breaking on a routine patch release.
+# =====================================================================
+
+# --- core data manipulation ------------------------------------------
+# Synthetic data generation (source), feature engineering and scoring
+# (scoring), and every analysis script.
+pandas>=2.1,<3.0
+numpy>=1.26,<3.0
+
+# --- database access -------------------------------------------------
+# SQLAlchemy provides the read path: one engine that pandas.read_sql consumes,
+# with the project schema pinned on the search path in one place. Writes and DDL
+# deliberately do NOT go through it - bulk loads use psycopg COPY directly
+# because it is an order of magnitude faster than row-wise inserts.
+SQLAlchemy>=2.0,<3.0
+# psycopg 3 rather than psycopg2: actively developed, better typing, and the
+# [binary] extra ships wheels so there is no local C toolchain requirement.
+# SQLAlchemy 2.x drives it natively via postgresql+psycopg://
+psycopg[binary]>=3.1,<4.0
+
+# --- configuration ---------------------------------------------------
+# Reads .env so credentials stay out of source control. config.py ships a
+# minimal fallback parser, so this is a convenience rather than a hard
+# requirement - but it handles quoting and export syntax properly and the
+# fallback should not be the normal path.
+python-dotenv>=1.0,<2.0
+
+# --- external data acquisition ---------------------------------------
+# source queries the OpenStreetMap Overpass API for parking amenities, metro
+# stations and POI counts. Needed for retries, timeouts and headers, which are
+# tedious to get right with urllib. Note this is a hard install requirement even
+# for a fully cached offline build, because source_collection.py imports it at
+# module level and build_dataset.py always imports that module.
+requests>=2.31,<3.0
+
+# Fast, dependency-free validation of generated CSV contracts. Pandera was
+# considered but is unnecessary for the modest explicit rule set here.
+
+# --- exploratory charting --------------------------------------------
+# Power BI is the presentation layer. matplotlib exists only for exploratory
+# work and for the distribution/sensitivity charts that support the
+# methodology document.
+matplotlib>=3.8,<4.0
+
+# --- notebooks -------------------------------------------------------
+# python/notebooks/ holds exploratory analysis. jupyterlab, not the classic
+# notebook package, which is now a thin shim over it. `make notebooks`
+# also relies on nbconvert, which arrives transitively with jupyterlab.
+jupyterlab>=4.0,<5.0
+# The notebooks import IPython.display directly for inline tables and figures.
+# It arrives transitively via jupyterlab, but an undeclared direct import is a
+# latent break, so it is declared explicitly.
+ipython>=8.0,<10.0
+
+# --- testing ---------------------------------------------------------
+# tests/ covers the scoring functions and data-quality helpers. Scoring logic
+# that nobody tested is scoring logic nobody should trust.
+pytest>=7.4,<9.0
+
+# =====================================================================
+# EVALUATED AND DELIBERATELY EXCLUDED
+#
+#   seaborn      Would make EDA plots marginally terser. matplotlib already
+#                covers histograms, scatter plots and correlation heatmaps.
+#                Add it later if statistical plotting becomes a
+#                bottleneck - with a reason recorded here.
+#   plotly       Interactive charting duplicates what Power BI is for. Adding
+#                a second interactive layer would mean two places to maintain
+#                the same visual.
+#   scikit-learn No machine learning in this project. The scoring framework is
+#                deliberately a transparent weighted model: a fresher who can
+#                defend every coefficient beats one demonstrating a black box.
+#                If scoring needs correlation or rank agreement, scipy-free
+#                pandas methods (.corr, .rank) suffice.
+#   geopandas /  Distance work is limited to haversine between point pairs -
+#   shapely      about fifteen lines of numpy. These bring heavy geospatial
+#                stacks (GEOS, PROJ) for no gain and complicate install.
+#   faker        Synthetic names could come from Faker, but the generator needs
+#                India-specific, locality-plausible operator names that Faker
+#                would not produce well anyway. A small curated name list is
+#                more controllable and reviewable.
+#   great-       Full data-quality frameworks are the right answer at scale.
+#   expectations Here the rule catalogue is 35 checks of plain SQL that any
+#                interviewer can read in a minute, which is worth more than
+#                framework fluency on a portfolio project.
+# =====================================================================

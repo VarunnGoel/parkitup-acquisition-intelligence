@@ -1,0 +1,37 @@
+dimension,segment,leads,acquired,acquisition_rate_pct,avg_days_to_acquisition,synthetic_caveat
+capacity_segment,Q3,30,5,16.67,52.4,Descriptive synthetic funnel cut; not causal evidence.
+capacity_segment,Q4 Large,30,4,13.33,61.75,Descriptive synthetic funnel cut; not causal evidence.
+capacity_segment,Q1 Small,30,2,6.67,49.5,Descriptive synthetic funnel cut; not causal evidence.
+capacity_segment,Q2,30,1,3.33,52.0,Descriptive synthetic funnel cut; not causal evidence.
+digital_readiness,Digitally Ready,63,8,12.7,53.12,Descriptive synthetic funnel cut; not causal evidence.
+digital_readiness,Needs Enablement,57,4,7.02,58.75,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Partner Network,12,3,25.0,43.0,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Inbound Enquiry,9,1,11.11,65.0,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Referral,19,2,10.53,75.0,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Cold Call,29,3,10.34,56.0,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Broker,10,1,10.0,45.0,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Desk Research,20,1,5.0,51.0,Descriptive synthetic funnel cut; not causal evidence.
+lead_source,Field Survey,21,1,4.76,52.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Connaught Place,11,3,27.27,52.33,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Nehru Place,11,3,27.27,52.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Faridabad Sector 15,5,1,20.0,30.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Golf Course Road,5,1,20.0,65.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Indirapuram,6,1,16.67,50.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,DLF Cyber City,10,1,10.0,52.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Saket,10,1,10.0,73.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Udyog Vihar,10,1,10.0,77.0,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Karol Bagh,10,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Sector 29 Gurugram,10,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Lajpat Nagar,6,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Botanical Garden Noida,5,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Rajouri Garden,5,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Vasant Kunj,5,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Noida Sector 18,4,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Noida Sector 62,4,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+locality_name,Dwarka Sector 21,3,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+owner_type,Private Company,64,12,18.75,55.0,Descriptive synthetic funnel cut; not causal evidence.
+owner_type,Government/Municipal,24,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+owner_type,Family Trust,10,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+owner_type,RWA,10,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+owner_type,Individual,6,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.
+owner_type,Mall Management,6,0,0.0,,Descriptive synthetic funnel cut; not causal evidence.

@@ -1,0 +1,21 @@
+locality_id,city_id,locality_name,geocode_query,micro_market_type,population_density_band,selection_note
+1,1,Connaught Place,"Connaught Place, New Delhi, Delhi, India",CBD,High,Central business district and interchange market
+2,1,Nehru Place,"Nehru Place, New Delhi, Delhi, India",Commercial,High,Office and electronics commercial cluster
+3,1,Saket,"Saket, New Delhi, Delhi, India",Mixed Use,High,Retail residential and institutional mix
+4,1,Dwarka Sector 21,"Dwarka Sector 21, New Delhi, Delhi, India",Transit Hub,Medium,Airport line interchange and residential catchment
+5,1,Rajouri Garden,"Rajouri Garden, New Delhi, Delhi, India",Retail High Street,Very High,West Delhi retail and residential market
+6,1,Karol Bagh,"Karol Bagh, New Delhi, Delhi, India",Retail High Street,Very High,Dense retail and mixed-use market
+7,1,Lajpat Nagar,"Lajpat Nagar, New Delhi, Delhi, India",Retail High Street,Very High,South Delhi retail and residential market
+8,1,Vasant Kunj,"Vasant Kunj, New Delhi, Delhi, India",Residential,Medium,Residential market with destination retail
+9,2,DLF Cyber City,"DLF Cyber City, Gurugram, Haryana, India",IT/Office Park,High,Large office employment cluster
+10,2,Sector 29 Gurugram,"Sector 29, Gurugram, Haryana, India",Mixed Use,High,Leisure office and transit-oriented market
+11,2,Golf Course Road,"Golf Course Road, Gurugram, Haryana, India",Commercial,High,Office and premium residential corridor
+12,2,Udyog Vihar,"Udyog Vihar, Gurugram, Haryana, India",IT/Office Park,Medium,Industrial and office employment cluster
+13,3,Noida Sector 18,"Sector 18, Noida, Uttar Pradesh, India",Retail High Street,High,Major retail office and metro market
+14,3,Noida Sector 62,"Sector 62, Noida, Uttar Pradesh, India",IT/Office Park,High,Office and education employment cluster
+15,3,Noida Sector 137,"Sector 137, Noida, Uttar Pradesh, India",Residential,High,High-rise residential and office catchment
+16,3,Botanical Garden Noida,"Botanical Garden, Noida, Uttar Pradesh, India",Transit Hub,High,Metro interchange and institutional catchment
+17,4,Indirapuram,"Indirapuram, Ghaziabad, Uttar Pradesh, India",Residential,Very High,Dense residential and retail market
+18,4,Raj Nagar Ghaziabad,"Raj Nagar, Ghaziabad, Uttar Pradesh, India",Mixed Use,High,Administrative residential and commercial mix
+19,5,Faridabad Sector 15,"Sector 15, Faridabad, Haryana, India",Mixed Use,High,Residential and high-street commercial market
+20,5,NIT Faridabad,"NIT, Faridabad, Haryana, India",Commercial,Very High,Dense established commercial and residential market

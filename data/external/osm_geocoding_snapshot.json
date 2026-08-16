@@ -1,0 +1,227 @@
+{
+  "observed_on": "2026-08-16",
+  "results": [
+    {
+      "display_name": "Connaught Place, New Delhi, Delhi, 110001, India",
+      "latitude": 28.6317695,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 1,
+      "locality_name": "Connaught Place",
+      "longitude": 77.2193804,
+      "osm_id": 561299050,
+      "osm_type": "node",
+      "query": "Connaught Place, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "Elof Hansson (India) Private Limited, 89, Nehru Place, South, New Delhi, South Delhi, Delhi, 110019, India",
+      "latitude": 28.5480268,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 2,
+      "locality_name": "Nehru Place",
+      "longitude": 77.2534172,
+      "osm_id": 12031173580,
+      "osm_type": "node",
+      "query": "Nehru Place, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "Green Field School, Saket Road, Press Enclave, Saket, South, New Delhi, South Delhi, Delhi, 110017, India",
+      "latitude": 28.5234897,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 3,
+      "locality_name": "Saket",
+      "longitude": 77.209631,
+      "osm_id": 239638765,
+      "osm_type": "way",
+      "query": "Saket, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "Aap ka Bazar, Plot-39, Sector 23A, Aditya Enclave, Near- Anytime Fitness GYM, Dwarka, New Delhi, (India) - 110075, Road 205, Amberhai, Najafgarh, Delhi, New Delhi, Delhi, 110075, India",
+      "latitude": 28.5649787,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 4,
+      "locality_name": "Dwarka Sector 21",
+      "longitude": 77.0510412,
+      "osm_id": 349807278,
+      "osm_type": "way",
+      "query": "Dwarka Sector 21, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "Dasaprakash-Rajouri Garden, Unit No. GF \u2013 04, Ground Floor, Vishal Cinema Road, Shivaji Place, West, New Delhi, West Delhi, Delhi, 110027, India",
+      "latitude": 28.6503246,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 5,
+      "locality_name": "Rajouri Garden",
+      "longitude": 77.1209907,
+      "osm_id": 13114441163,
+      "osm_type": "node",
+      "query": "Rajouri Garden, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "India Emporium, 69, Panchkuian Road, Aram Bagh, Paharganj, Karol Bagh, Delhi, Central Delhi, Delhi, 110001, India",
+      "latitude": 28.6378452,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 6,
+      "locality_name": "Karol Bagh",
+      "longitude": 77.2113764,
+      "osm_id": 12052465817,
+      "osm_type": "node",
+      "query": "Karol Bagh, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "Britomatics India (Inktec inks & Allwin Printer), 102 LGF, Mathura Road, Siddharth Enclave, Lajpat Nagar, Central, New Delhi, East Delhi, Delhi, 110014, India",
+      "latitude": 28.5737083,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 7,
+      "locality_name": "Lajpat Nagar",
+      "longitude": 77.258017,
+      "osm_id": 11868205563,
+      "osm_type": "node",
+      "query": "Lajpat Nagar, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "4151, B5&6. Vasant Kunj, 4151, Bhagwan Mahavir Marg, Vasant Kunj, South, New Delhi, Delhi, 110070, India",
+      "latitude": 28.5282519,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 8,
+      "locality_name": "Vasant Kunj",
+      "longitude": 77.161266,
+      "osm_id": 350584354,
+      "osm_type": "way",
+      "query": "Vasant Kunj, New Delhi, Delhi, India"
+    },
+    {
+      "display_name": "Cyber City, Sector 25A, Gurgaon, Gurugram, Haryana, 122010, India",
+      "latitude": 28.4973098,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 9,
+      "locality_name": "DLF Cyber City",
+      "longitude": 77.091798,
+      "osm_id": 3587101,
+      "osm_type": "relation",
+      "query": "DLF Cyber City, Gurugram, Haryana, India"
+    },
+    {
+      "display_name": "Sector 29, Gurgaon, Gurugram, Haryana, 122022, India",
+      "latitude": 28.4669197,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 10,
+      "locality_name": "Sector 29 Gurugram",
+      "longitude": 77.0671306,
+      "osm_id": 3585181,
+      "osm_type": "relation",
+      "query": "Sector 29, Gurugram, Haryana, India"
+    },
+    {
+      "display_name": "Golf Course Road, Sector 26A, Gurgaon, Gurugram, Haryana, 122009, India",
+      "latitude": 28.463537,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 11,
+      "locality_name": "Golf Course Road",
+      "longitude": 77.0953523,
+      "osm_id": 675051252,
+      "osm_type": "way",
+      "query": "Golf Course Road, Gurugram, Haryana, India"
+    },
+    {
+      "display_name": "Udyog Vihar, Delhi-Gurugram Expressway, Sector 18, Gurgaon, Gurugram, Haryana, 122002, India",
+      "latitude": 28.4917349,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 12,
+      "locality_name": "Udyog Vihar",
+      "longitude": 77.0819718,
+      "osm_id": 9706919851,
+      "osm_type": "node",
+      "query": "Udyog Vihar, Gurugram, Haryana, India"
+    },
+    {
+      "display_name": "Sector 18, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "latitude": 28.5705399,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 13,
+      "locality_name": "Noida Sector 18",
+      "longitude": 77.3228931,
+      "osm_id": 19397973,
+      "osm_type": "relation",
+      "query": "Sector 18, Noida, Uttar Pradesh, India"
+    },
+    {
+      "display_name": "Sector 62, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201309, India",
+      "latitude": 28.6211447,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 14,
+      "locality_name": "Noida Sector 62",
+      "longitude": 77.3643493,
+      "osm_id": 10811810934,
+      "osm_type": "node",
+      "query": "Sector 62, Noida, Uttar Pradesh, India"
+    },
+    {
+      "display_name": "Sector 137, Shahdara, Noida, Gautam Buddha Nagar, Uttar Pradesh, India",
+      "latitude": 28.5087875,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 15,
+      "locality_name": "Noida Sector 137",
+      "longitude": 77.4104388,
+      "osm_id": 170571038,
+      "osm_type": "way",
+      "query": "Sector 137, Noida, Uttar Pradesh, India"
+    },
+    {
+      "display_name": "Botanical Garden, Lieutenant Vijyant Thapar Marg, Chhalera, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201313, India",
+      "latitude": 28.5640067,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 16,
+      "locality_name": "Botanical Garden Noida",
+      "longitude": 77.3340125,
+      "osm_id": 1182820256,
+      "osm_type": "way",
+      "query": "Botanical Garden, Noida, Uttar Pradesh, India"
+    },
+    {
+      "display_name": "Windsor Park, Indirapuram, Ghaziabad, Uttar Pradesh, 201001, India",
+      "latitude": 28.6380466,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 17,
+      "locality_name": "Indirapuram",
+      "longitude": 77.3644168,
+      "osm_id": 113685210,
+      "osm_type": "way",
+      "query": "Indirapuram, Ghaziabad, Uttar Pradesh, India"
+    },
+    {
+      "display_name": "Raj Nagar, Ghaziabad, Uttar Pradesh, 201001, India",
+      "latitude": 28.6818623,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 18,
+      "locality_name": "Raj Nagar Ghaziabad",
+      "longitude": 77.4461161,
+      "osm_id": 1273840742,
+      "osm_type": "way",
+      "query": "Raj Nagar, Ghaziabad, Uttar Pradesh, India"
+    },
+    {
+      "display_name": "Sector 15, Faridabad, Haryana, 121001, India",
+      "latitude": 28.3983558,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 19,
+      "locality_name": "Faridabad Sector 15",
+      "longitude": 77.3231003,
+      "osm_id": 172389974,
+      "osm_type": "way",
+      "query": "Sector 15, Faridabad, Haryana, India"
+    },
+    {
+      "display_name": "NIT 2, New Industrial Township, Faridabad, Haryana, 121001, India",
+      "latitude": 28.3840897,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "locality_id": 20,
+      "locality_name": "NIT Faridabad",
+      "longitude": 77.2882868,
+      "osm_id": 172589029,
+      "osm_type": "way",
+      "query": "NIT, Faridabad, Haryana, India"
+    }
+  ],
+  "source": "OpenStreetMap Nominatim",
+  "source_url": "https://nominatim.openstreetmap.org/search"
+}

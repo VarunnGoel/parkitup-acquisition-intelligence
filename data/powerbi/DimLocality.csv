@@ -1,0 +1,18 @@
+locality_id,city_id,locality_name,micro_market_type,has_metro_station,metro_line_count,population_density_band,record_source,city_name,state_name,ncr_zone,is_core_delhi,parking_count,total_capacity,avg_occupancy_pct,avg_demand_score,avg_revenue_score,avg_competition_score,avg_strategic_fit,avg_feasibility,avg_acquisition_score,high_priority_count,acquisition_opportunities,avg_competitor_count_1km,parkitup_site_count,parkitup_capacity,parkitup_coverage_pct,market_whitespace_score,whitespace_rank,market_class,whitespace_indicator
+1,1,Connaught Place,CBD,True,1,High,public_osm,New Delhi,Delhi,Central NCR,True,11,1849,45.27,71.76,74.93,24.7,65.37,64.11,63.39,7,10,21.18,1,104,5.33,67.94,1,STRONG,HIGH_WHITESPACE
+2,1,Nehru Place,Commercial,True,1,High,public_osm,New Delhi,Delhi,Central NCR,True,11,3203,47.66,70.68,80.46,30.79,67.07,64.63,65.69,9,11,10.82,1,209,6.13,66.35,2,STRONG,HIGH_WHITESPACE
+3,1,Saket,Mixed Use,False,0,High,public_osm,New Delhi,Delhi,Central NCR,True,10,2150,31.52,25.78,39.68,42.61,40.66,64.85,39.87,0,0,6.2,1,195,8.32,23.64,7,EMERGING,HIGH_WHITESPACE
+4,1,Dwarka Sector 21,Transit Hub,False,0,Medium,public_osm,New Delhi,Delhi,Central NCR,True,3,577,32.47,25.97,28.7,95.5,55.36,42.06,43.9,0,1,0.0,1,190,24.77,19.54,12,SATURATED,LOW_WHITESPACE
+5,1,Rajouri Garden,Retail High Street,False,0,Very High,public_osm,New Delhi,Delhi,Central NCR,True,5,812,34.86,31.5,32.15,61.23,49.74,54.56,42.32,0,1,2.8,0,0,0.0,31.5,5,STRONG,HIGH_WHITESPACE
+6,1,Karol Bagh,Retail High Street,True,1,Very High,public_osm,New Delhi,Delhi,Central NCR,True,10,2078,50.08,66.28,52.0,49.16,59.5,48.31,56.43,4,9,6.1,1,119,5.42,62.69,3,STRONG,HIGH_WHITESPACE
+7,1,Lajpat Nagar,Retail High Street,True,1,Very High,public_osm,New Delhi,Delhi,Central NCR,True,6,1163,43.15,49.73,45.36,60.92,76.06,64.06,56.41,2,3,3.17,0,0,0.0,49.73,4,STRONG,HIGH_WHITESPACE
+8,1,Vasant Kunj,Residential,False,0,Medium,public_osm,New Delhi,Delhi,Central NCR,True,5,600,25.51,13.51,17.66,64.93,48.86,44.68,32.24,0,0,1.2,1,99,14.16,11.6,17,WEAK,LOW_WHITESPACE
+9,2,DLF Cyber City,IT/Office Park,False,0,High,public_osm,Gurugram,Haryana,South NCR,False,10,1979,23.76,19.59,33.2,34.8,37.99,60.69,34.2,0,0,9.7,1,151,7.09,18.2,13,WEAK,LOW_WHITESPACE
+10,2,Sector 29 Gurugram,Mixed Use,False,0,High,public_osm,Gurugram,Haryana,South NCR,False,10,1812,27.77,20.13,25.59,48.61,57.75,48.91,35.73,0,0,4.8,0,0,0.0,20.13,10,WEAK,LOW_WHITESPACE
+11,2,Golf Course Road,Commercial,False,0,High,public_osm,Gurugram,Haryana,South NCR,False,5,1134,31.4,26.12,41.26,80.49,61.56,60.71,48.56,2,3,1.2,0,0,0.0,26.12,6,STRONG,HIGH_WHITESPACE
+12,2,Udyog Vihar,IT/Office Park,False,0,Medium,public_osm,Gurugram,Haryana,South NCR,False,10,2390,20.71,14.01,26.4,43.3,36.4,56.72,31.27,0,0,7.2,1,191,7.4,12.97,16,WEAK,LOW_WHITESPACE
+13,3,Noida Sector 18,Retail High Street,False,0,High,public_osm,Noida,Uttar Pradesh,East NCR,False,4,569,32.7,28.52,25.7,71.29,45.86,36.9,38.09,0,0,2.5,1,134,19.06,23.08,8,EMERGING,HIGH_WHITESPACE
+14,3,Noida Sector 62,IT/Office Park,False,0,High,public_osm,Noida,Uttar Pradesh,East NCR,False,4,993,28.64,23.9,37.7,73.96,47.37,57.52,43.42,1,1,2.0,1,221,18.2,19.55,11,SATURATED,LOW_WHITESPACE
+16,3,Botanical Garden Noida,Transit Hub,False,0,High,public_osm,Noida,Uttar Pradesh,East NCR,False,5,831,30.21,23.54,20.74,65.59,45.01,44.49,35.51,0,0,3.0,1,108,11.5,20.83,9,EMERGING,HIGH_WHITESPACE
+17,4,Indirapuram,Residential,False,0,Very High,public_osm,Ghaziabad,Uttar Pradesh,North NCR,False,6,715,25.01,13.75,14.23,35.47,55.78,54.53,29.55,0,0,3.67,0,0,0.0,13.75,15,WEAK,LOW_WHITESPACE
+19,5,Faridabad Sector 15,Mixed Use,False,0,High,public_osm,Faridabad,Haryana,South NCR,False,5,830,29.03,19.01,29.0,75.36,56.68,55.57,41.1,0,1,1.2,1,70,7.78,17.53,14,SATURATED,LOW_WHITESPACE

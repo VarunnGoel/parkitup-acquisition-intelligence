@@ -1,0 +1,73 @@
+owner_id,owner_code,owner_name,owner_type,years_operating,digital_payment_enabled,management_system,willingness_to_digitize,contract_flexibility,decision_maker_accessible,digital_readiness
+1,OWN-0001,Synthetic Operator 001,Private Company,3,True,Basic POS,4,4,True,Digitally Ready
+2,OWN-0002,Synthetic Operator 002,Private Company,7,True,Basic POS,3,2,True,Digitally Ready
+3,OWN-0003,Synthetic Operator 003,Family Trust,1,True,Spreadsheet,2,3,False,Digitally Ready
+4,OWN-0004,Synthetic Operator 004,Family Trust,18,False,Paper Register,3,2,True,Needs Enablement
+5,OWN-0005,Synthetic Operator 005,Private Company,28,True,Basic POS,4,5,True,Digitally Ready
+6,OWN-0006,Synthetic Operator 006,RWA,4,True,Basic POS,3,4,False,Digitally Ready
+7,OWN-0007,Synthetic Operator 007,Government/Municipal,4,False,Basic POS,4,2,True,Needs Enablement
+8,OWN-0008,Synthetic Operator 008,RWA,15,False,Paper Register,2,2,False,Needs Enablement
+9,OWN-0009,Synthetic Operator 009,Private Company,6,False,Basic POS,4,5,True,Needs Enablement
+10,OWN-0010,Synthetic Operator 010,Private Company,6,True,Spreadsheet,3,4,True,Digitally Ready
+11,OWN-0011,Synthetic Operator 011,Private Company,3,True,Paper Register,4,4,True,Digitally Ready
+12,OWN-0012,Synthetic Operator 012,Private Company,8,True,Basic POS,4,4,False,Digitally Ready
+13,OWN-0013,Synthetic Operator 013,RWA,10,False,Paper Register,2,2,True,Needs Enablement
+14,OWN-0014,Synthetic Operator 014,Private Company,6,True,Third-party App,5,5,True,Digitally Ready
+15,OWN-0015,Synthetic Operator 015,Private Company,21,False,Spreadsheet,4,5,False,Needs Enablement
+16,OWN-0016,Synthetic Operator 016,RWA,13,True,Spreadsheet,3,2,True,Digitally Ready
+17,OWN-0017,Synthetic Operator 017,Private Company,4,True,Third-party App,5,4,True,Digitally Ready
+18,OWN-0018,Synthetic Operator 018,Mall Management,9,False,Basic POS,5,3,False,Needs Enablement
+19,OWN-0019,Synthetic Operator 019,Private Company,4,True,Basic POS,4,3,True,Digitally Ready
+20,OWN-0020,Synthetic Operator 020,Government/Municipal,11,False,Spreadsheet,3,3,False,Needs Enablement
+21,OWN-0021,Synthetic Operator 021,Government/Municipal,4,False,Spreadsheet,2,2,True,Needs Enablement
+22,OWN-0022,Synthetic Operator 022,Government/Municipal,14,False,Paper Register,3,2,True,Needs Enablement
+23,OWN-0023,Synthetic Operator 023,Government/Municipal,5,True,Paper Register,3,2,False,Digitally Ready
+24,OWN-0024,Synthetic Operator 024,Private Company,15,True,Basic POS,4,3,True,Digitally Ready
+25,OWN-0025,Synthetic Operator 025,Private Company,12,False,Paper Register,3,3,True,Needs Enablement
+26,OWN-0026,Synthetic Operator 026,RWA,12,True,Spreadsheet,3,3,False,Digitally Ready
+27,OWN-0027,Synthetic Operator 027,Private Company,11,False,Third-party App,4,3,False,Needs Enablement
+28,OWN-0028,Synthetic Operator 028,Mall Management,4,True,Third-party App,5,5,True,Digitally Ready
+29,OWN-0029,Synthetic Operator 029,Mall Management,6,True,Spreadsheet,4,4,True,Digitally Ready
+30,OWN-0030,Synthetic Operator 030,Private Company,9,True,Third-party App,4,4,True,Digitally Ready
+31,OWN-0031,Synthetic Operator 031,Family Trust,3,False,Paper Register,2,2,False,Needs Enablement
+32,OWN-0032,Synthetic Operator 032,Government/Municipal,9,False,Paper Register,1,1,False,Needs Enablement
+33,OWN-0033,Synthetic Operator 033,RWA,7,False,Paper Register,3,2,True,Needs Enablement
+34,OWN-0034,Synthetic Operator 034,Mall Management,14,True,Third-party App,4,5,True,Digitally Ready
+35,OWN-0035,Synthetic Operator 035,Individual,33,False,Spreadsheet,3,3,True,Needs Enablement
+36,OWN-0036,Synthetic Operator 036,Government/Municipal,12,True,Spreadsheet,2,2,False,Digitally Ready
+37,OWN-0037,Synthetic Operator 037,Private Company,7,True,Basic POS,2,3,False,Digitally Ready
+38,OWN-0038,Synthetic Operator 038,Government/Municipal,5,False,Spreadsheet,2,3,False,Needs Enablement
+39,OWN-0039,Synthetic Operator 039,RWA,6,False,Paper Register,2,3,True,Needs Enablement
+40,OWN-0040,Synthetic Operator 040,Private Company,6,False,Basic POS,4,3,False,Needs Enablement
+41,OWN-0041,Synthetic Operator 041,Private Company,16,False,Spreadsheet,3,2,False,Needs Enablement
+42,OWN-0042,Synthetic Operator 042,Private Company,10,True,Third-party App,5,4,False,Digitally Ready
+43,OWN-0043,Synthetic Operator 043,Private Company,14,True,Third-party App,4,5,True,Digitally Ready
+44,OWN-0044,Synthetic Operator 044,Private Company,11,True,Basic POS,3,4,False,Digitally Ready
+45,OWN-0045,Synthetic Operator 045,Individual,2,False,Paper Register,2,2,True,Needs Enablement
+46,OWN-0046,Synthetic Operator 046,Private Company,3,False,Spreadsheet,5,2,False,Needs Enablement
+47,OWN-0047,Synthetic Operator 047,Mall Management,4,True,Third-party App,5,4,True,Digitally Ready
+48,OWN-0048,Synthetic Operator 048,Government/Municipal,29,True,Paper Register,3,1,False,Digitally Ready
+49,OWN-0049,Synthetic Operator 049,Family Trust,11,True,Spreadsheet,3,2,True,Digitally Ready
+50,OWN-0050,Synthetic Operator 050,Individual,20,False,Paper Register,1,1,True,Needs Enablement
+51,OWN-0051,Synthetic Operator 051,Private Company,2,True,Spreadsheet,3,4,False,Digitally Ready
+52,OWN-0052,Synthetic Operator 052,Private Company,18,True,Paper Register,2,1,False,Digitally Ready
+53,OWN-0053,Synthetic Operator 053,Private Company,33,False,Third-party App,4,4,True,Needs Enablement
+54,OWN-0054,Synthetic Operator 054,Private Company,5,False,Paper Register,4,2,True,Needs Enablement
+55,OWN-0055,Synthetic Operator 055,Family Trust,20,False,Paper Register,2,2,False,Needs Enablement
+56,OWN-0056,Synthetic Operator 056,Private Company,8,True,Third-party App,4,4,True,Digitally Ready
+57,OWN-0057,Synthetic Operator 057,Private Company,10,True,Third-party App,4,4,True,Digitally Ready
+58,OWN-0058,Synthetic Operator 058,Private Company,6,False,Basic POS,3,4,True,Needs Enablement
+59,OWN-0059,Synthetic Operator 059,Government/Municipal,17,False,Paper Register,3,1,False,Needs Enablement
+60,OWN-0060,Synthetic Operator 060,Private Company,7,False,Spreadsheet,4,5,True,Needs Enablement
+61,OWN-0061,Synthetic Operator 061,Private Company,9,True,Spreadsheet,3,3,True,Digitally Ready
+62,OWN-0062,Synthetic Operator 062,Individual,8,True,None/Manual,3,1,False,Digitally Ready
+63,OWN-0063,Synthetic Operator 063,Private Company,7,False,Basic POS,3,3,True,Needs Enablement
+64,OWN-0064,Synthetic Operator 064,Private Company,2,False,Basic POS,4,4,True,Needs Enablement
+65,OWN-0065,Synthetic Operator 065,Individual,12,False,Spreadsheet,2,2,True,Needs Enablement
+66,OWN-0066,Synthetic Operator 066,Family Trust,6,False,None/Manual,2,1,True,Needs Enablement
+67,OWN-0067,Synthetic Operator 067,Private Company,11,False,Basic POS,4,5,False,Needs Enablement
+68,OWN-0068,Synthetic Operator 068,Family Trust,5,False,Spreadsheet,2,2,False,Needs Enablement
+69,OWN-0069,Synthetic Operator 069,Family Trust,27,False,Paper Register,2,3,True,Needs Enablement
+70,OWN-0070,Synthetic Operator 070,Private Company,27,True,Spreadsheet,3,3,True,Digitally Ready
+71,OWN-0071,Synthetic Operator 071,Individual,19,True,Spreadsheet,2,3,True,Digitally Ready
+72,OWN-0072,Synthetic Operator 072,Private Company,8,True,Spreadsheet,5,4,False,Digitally Ready

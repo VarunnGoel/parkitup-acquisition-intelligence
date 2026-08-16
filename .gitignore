@@ -1,0 +1,80 @@
+# --- secrets and local environment -----------------------------------
+.env
+*.pem
+*.key
+
+# --- python ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# --- generated data --------------------------------------------------
+# Generated data is reproducible from the seeded pipeline, so it is not
+# tracked. Two deliberate exceptions follow.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# EXCEPTION 1: the committed OSM snapshot is an INPUT, not an output. Without it
+# the project would not be reproducible offline. Personal-contact tags are
+# stripped from it at write time - see PII_TAG_TOKENS in
+# python/etl/source_collection.py and `--scrub-cache`.
+!data/external/
+!data/external/**
+
+# The per-market re-query caches are intermediate debris. They are written by
+# `--refresh` and read only by a subsequent `--refresh`; source_manifest.json
+# does not hash them and no build step reads them. ~2.9 MB for no reproducibility
+# benefit, so they stay local.
+data/external/osm_batches/
+data/external/nominatim_fallback_batches/
+
+# EXCEPTION 2: data/powerbi/ is generated, but it is the portable star-schema
+# extract the .pbix binds to. Committing it means a reviewer can open the
+# dashboard without installing PostgreSQL and rerunning the pipeline. Contents
+# are synthetic and carry no personal data.
+!data/powerbi/
+!data/powerbi/**
+
+# --- validation output -----------------------------------------------
+validation/*
+!validation/.gitkeep
+
+# --- power bi --------------------------------------------------------
+# Temporary files Power BI Desktop leaves beside a .pbix.
+*.pbix.tmp
+~$*
+
+# --- personal documents ----------------------------------------------
+# The LaTeX resume and its build output live in this folder for convenience but
+# are NOT part of the project. They carry personal contact details (phone,
+# LinkedIn), and this repository is intended to be public. The project's own
+# resume material — bullets and wording only, no contact information — is in
+# documentation/resume.md, which IS tracked.
+resume.tex
+resume.pdf
+resume.log
+resume.aux
+resume.out
+resume.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --- publish tooling -------------------------------------------------
+# scripts/build_publish_copy.sh moves anything that must not reach the published
+# repository into this directory rather than deleting it, because some synced
+# folders permit create and rename but refuse unlink. Safe to delete by hand.
+.publish-discard/
+
+# --- os / editor -----------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

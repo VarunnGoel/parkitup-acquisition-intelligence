@@ -1,0 +1,8 @@
+stage_id,stage_code,stage_name,stage_order,is_success_stage,stage_description
+1,IDENTIFIED,Identified,1,False,Lot located and logged as a prospect. No contact attempted yet.
+2,CONTACTED,Contacted,2,False,Owner or site manager reached at least once.
+3,MEETING_DONE,Meeting Held,3,False,Substantive discussion completed with someone able to describe the site commercially.
+4,PROPOSAL_SENT,Proposal Sent,4,False,Commercial terms including commission rate formally presented.
+5,NEGOTIATION,In Negotiation,5,False,"Owner engaged on terms; commission, exclusivity or capex under discussion."
+6,DOCS_COLLECTED,Documents Collected,6,False,"Ownership proof, trade licence and bank details received."
+7,ONBOARDED,Onboarded,7,True,Agreement signed and lot live on the platform.

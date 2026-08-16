@@ -1,0 +1,20 @@
+{
+  "collection_policy": "One bounded refresh for 20 selected micro-markets. Successful Overpass batches were retained and unavailable markets used cached, category-filtered Nominatim fallback searches. Normal builds make no API calls.",
+  "files": {
+    "micro_markets.csv": {
+      "rows": 20,
+      "sha256": "ba8022787ee13470f0638b3fc65637209d71f549a894a6acd3cd2935c4bcd485"
+    },
+    "osm_features_snapshot.json": {
+      "rows": 3518,
+      "sha256": "34196b4bbaaf4b588437b10cac109d3221c6f5054e1188d365e1ee326de99730"
+    },
+    "osm_geocoding_snapshot.json": {
+      "rows": 20,
+      "sha256": "148569f472904d2fb156a9b27ff2da37106d54bb785c3f29ea6e1294fbf3e3dd"
+    }
+  },
+  "observed_on": "2026-08-16",
+  "personal_contact_tags_removed": true,
+  "runtime_dependency": false
+}

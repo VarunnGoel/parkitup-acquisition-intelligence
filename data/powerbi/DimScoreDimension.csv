@@ -1,0 +1,6 @@
+dimension_code,dimension_name,pillar_group,display_order,description
+DEMAND,Demand Potential,Attractiveness,1,"Latent parking demand around the lot, evidenced by surrounding land use, transit proximity, POI density and observed occupancy pressure."
+REVENUE,Revenue Potential,Attractiveness,2,"Expected economic value to the platform: capacity multiplied by achievable utilisation, price point and commission rate."
+COMPETITION,Competition Opportunity,Attractiveness,3,Attractiveness of the local supply picture. Scores HIGH where demand exists but competing or already-digitised supply is thin.
+STRATEGIC_FIT,Strategic Fit,Attractiveness,4,"Contribution to network strategy: fills a coverage gap, extends a cluster, or sits in a priority micro-market without cannibalising the existing footprint."
+FEASIBILITY,Acquisition Feasibility,Feasibility,5,"Realistic probability of closing: owner willingness, digital readiness, documentation, contract flexibility, onboarding cost and operational complexity."
