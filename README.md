@@ -1,4 +1,4 @@
-# PARK It Up Acquisition Intelligence
+# Parking Lot Acquisition Intelligence
 
 **A decision-support system for parking network expansion.**
 
